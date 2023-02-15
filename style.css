@@ -1,0 +1,116 @@
+html {
+
+    
+
+    overflow: hidden;
+}
+
+
+body {
+    background-color: #4a7ac7;
+    min-width: fit-content;
+
+    transition: 2s;
+}
+
+
+#inputField {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+#title {
+
+    -webkit-box-shadow: 1px 8px 10px 6px rgba(0, 0, 0, 0.18);
+    box-shadow: 1px 8px 10px 6px rgba(0, 0, 0, 0.18);
+    display: flex;
+    justify-content: center;
+}
+
+
+#userSubmit {
+
+    display: none;
+}
+
+
+
+
+h1 {
+
+
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+
+#userInput {
+    width: 100%;
+    height: 40%;
+    border: blue;
+    border-radius: 5px;
+    font-size: 20px;
+    -webkit-box-shadow: 1px 8px 10px 6px rgba(0, 0, 0, 0.18);
+    box-shadow: 1px 8px 10px 6px rgba(0, 0, 0, 0.18);
+    resize: none;
+    overflow: hidden;
+    word-break: break-word;
+    white-space: normal;
+
+}
+
+#userInput:focus {
+    outline: none;
+
+}
+
+
+#helper {
+    color: #263d63;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+
+}
+
+
+.nodes {
+    
+    display: inline-flex;
+    max-width: 50%;
+    list-style-type: space-counter;
+    margin: 5% auto;
+    border: 2px;
+    background-color: #E8e8e8;
+    padding: 50px;
+    border-style: solid;
+    border-color: #608aa396;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 20px;
+    overflow-wrap: break-word;
+    cursor: grab;
+}
+
+.nodes:hover {
+text-decoration: line-through;
+
+}
+
+
+
+#heartsNode {
+
+    font-size: 150%;
+
+}
+
+#hearts {
+
+    z-index: 1;
+    position: absolute;
+}
+
